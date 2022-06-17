@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="website_phone.css" media="screen and (max-width: 500px)">
+</head>
+
+<body>
+    <div id="div_1">
+        <div id="redstore">
+            <img src="redstore.png" alt="">
+        </div>
+        <div id="container_top">
+            <div id="text">
+                <h1>Give Your Workout<br>New Style!</h1><br>Success isn't always about greatness. It's about
+                consistent<br>hard work gains success. Greatness will come.<br><br>
+                <button><b>EXPLORE NOW &#x27A1;</b></button>
+            </div>
+            <div id="logo"><img src="logo.png" alt=""></div>
+        </div>
+    </div>
+    <div id="div_2">
+        <div id="lp">
+            <h4>Latest Products</h4>
+        </div>
+        <div id="container">
+            <div class="t_buy"><img src="sample_img.jfif" alt=""><br>
+                <b>Red Printed<br>Tshirt</b><br><span>&dollar; 50.00</span>
+            </div>
+            <div class="t_buy"><img src="sample_img.jfif" alt=""><br>
+                <b>Red Printed<br>Tshirt</b><br><span>&dollar; 50.00</span>
+            </div>
+            <div class="t_buy"><img src="sample_img.jfif" alt=""><br>
+                <b>Red Printed<br>Tshirt</b><br><span>&dollar; 50.00</span>
+            </div>
+            <div class="t_buy"><img src="sample_img.jfif" alt=""><br>
+                <b>Red Printed<br>Tshirt</b><br><span>&dollar; 50.00</span>
+            </div>
+        </div>
+        <div id="t_buy_timer">
+            <div id="t_buy_timer_img"><img src="sample_img.jfif" alt=""></div>
+            <div id="txt">
+                <h3>Giveaway</h3><br>
+                <h4>Giveaway Ends On Tuesday. 21 June<br>2022 11:30am</h4>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dicta, voluptatibus obcaecati natus
+                asperiores quos quas officiis ea fugit cumque porro optio? Neque voluptatem illo et laboriosam nemo,
+                perspiciatis ratione?
+                <div id="timer">
+                    <div class="format"><h2 id="day"></h3>DAYS</div>
+                    <div class="format"><h2 id="hour"></h3>HOURS</div>
+                    <div class="format"><h2 id="min"></h3>MINS</div>
+                    <div class="format"><h2 id="sec"></h3>SECS</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="div_3">
+        <div><img src="watch.png" alt=""></div>
+        <div id="watch_txt">
+            <span>Excluslively Available on Redstore</span><br>
+            <h1>Smart Band 4</h1><br>
+            The Mi Band 4 features a 39.9% larger (than Mi band 3) AMOLED colour full touch display with<br>
+            adjustable brightness, so everything is clear as can be.<br><br>
+            <button><b>BUY NOW</b></button>
+        </div>
+    </div>
+    <div id="div_4">
+        <div class="sponsor">
+            <img id="godrej" src="godrej.png" alt="">
+        </div>
+        <div class="sponsor">
+            <img id="oppo" src="oppo.png" alt="">
+        </div>
+        <div class="sponsor">
+            <img id="coca_cola" src="coca_cola.png" alt="">
+        </div>
+        <div class="sponsor">
+            <img id="pay_pal" src="pay_pal.png" alt="">
+        </div>
+        <div class="sponsor">
+            <img id="phillips" src="phillips.png" alt="">
+        </div>
+    </div>
+    <div id="div_5">
+        <div id="playstore">
+            <h1>Download Our App</h1>
+            Download App for Android and Ios mobile phone<br><br>
+            <a href="https://play.google.com/store/games?device=phone&hl=en&gl=US"><img src="playstore.png" alt=""></a>
+        </div>
+        <div id="redstore_bottom">
+            <img src="redstore.png" alt=""><br>
+            Our Purpose Is To Sustainably Make the Pressure<br>
+            and Benefits of Sports Accessible to the many.
+        </div>
+        <div class="links">
+            <h1>Useful Links</h1>
+            <a href="#">Coupons</a><br>
+            <a href="#">Blog Post</a><br>
+            <a href="#">Return Policy</a><br>
+            <a href="#">Join Affillate</a>
+        </div>
+        <div class="links">
+            <h1>Follow Us</h1>
+            <a href="">Facebook</a><br>
+            <a href="">Instagram</a><br>
+            <a href="">Twitter</a><br>
+            <a href="">You Tube</a>
+        </div>
+    </div>
+    <script>
+        var dest= new Date("june 21, 2022 11:30:00").getTime();
+        var x=setInterval(function(){
+        var now= new Date().getTime();
+        
+        var diff= dest-now;
+        var days= Math.floor(diff/(1000*60*60*24));
+        var hours= Math.floor((diff%(1000*60*60*24))/(1000*60*60));
+        var mins= Math.floor((diff%(1000*60*60))/(1000*60));
+        var seconds= Math.floor((diff%(1000*60))/1000);
+        document.getElementById("day").innerHTML = days;
+        document.getElementById("hour").innerHTML = hours;
+        document.getElementById("min").innerHTML = mins;
+        document.getElementById("sec").innerHTML = seconds;
+        console.log(days)
+        },1000);
+    </script>
+</body>
+
+</html>

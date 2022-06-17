@@ -1,0 +1,181 @@
+#div_1{
+    width: 100vw;
+    background-color: rgba(255,227,227,255);
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    
+}
+#container_top{
+    display: flex;
+    justify-content: space-evenly;
+}
+#redstore{
+    margin-left: 18vw;
+}
+#text{
+    width:fit-content;
+    /* text-align: center; */
+}
+#text h1{
+    font-size: xx-large;
+}
+#logo{
+    
+    width:fit-content;
+    text-align:right;
+}
+#logo img{
+    width: 35vw;
+    height: 45vh;
+}
+#div img{
+    width: 15rem;
+    height: 20rem;
+}
+#div_2{
+    width: 100vw;
+    background-color: white;
+    /* height:fit-content; */
+    text-align: center;
+    padding-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#div_3{
+    width: 100vw;
+    background-color: rgba(255,227,227,255);
+    /* height: 30vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5vh;
+}
+#watch_txt{
+    margin-left: 3vw;
+}
+#div_4{
+    width: 100vw;
+    background-color: white;
+    /* height: 10vh; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+.sponsor{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+    width: fit-content;
+}
+#div_5{
+    width: 100vw;
+    background-color: black;
+    /* height: 20vh; */
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+#container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color:orange; */
+}
+.t_buy{
+    width: fit-content;
+    padding: 1vw;
+    
+}
+
+.t_buy img{
+    width: 15rem;
+    height: 20rem;
+}
+span{
+    color: blue;
+}
+#t_buy_timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 57vw;
+    background-color: #f1f1f1;
+}
+#t_buy_timer_img{
+    background-color: #f1f1f1;
+}
+#txt{
+    width: 100vw;
+    text-align: left;
+    /* margin-left: 20vw; */
+    padding-left: 11vw;
+    background-color: #f1f1f1;
+}
+#txt h3{
+    color: blue;
+}
+#t_buy_timer img{
+    width: 15rem;
+    height: 20rem;
+}
+#lp{
+    text-align: center;
+}
+#godrej{
+    width: 7vw;
+}
+#oppo{
+    width: 7vw;
+    /* padding-top: 6vh; */
+}
+#coca_cola{
+    width: 7vw;
+}
+#pay_pal{
+    width: 7vw;
+    /* padding-top: 4vh; */
+}
+#phillips{
+    width: 7vw;
+    /* padding-top: 3vh; */
+}
+.links{
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+#redstore_bottom{
+    padding-top: 3vh;
+    text-align: center;
+}
+#playstore img{
+    text-align: center;
+    width: 300px;
+}
+#timer{
+    display: flex;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.format{
+    color: black;
+    background-color:f1f1f1;
+    margin: 5px;
+    width: fit-content;
+    height: fit-content;
+
+}
+#day{
+    color: black;
+}
